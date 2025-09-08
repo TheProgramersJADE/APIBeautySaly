@@ -9,5 +9,5 @@ public class BeautySalyApiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BeautySalyApiApplication.class, args);
 	}
-
+ //hola este es mi primer commit
 }
