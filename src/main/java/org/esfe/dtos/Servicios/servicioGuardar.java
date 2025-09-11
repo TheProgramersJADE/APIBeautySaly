@@ -1,4 +1,4 @@
-package org.esfe.dtos.servicio;
+package org.esfe.dtos.Servicios;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -9,8 +9,7 @@ import java.time.Duration;
 
 @Getter
 @Setter
-public class servicioModificar implements Serializable {
-    private int id;
+public class servicioGuardar implements Serializable {
     private String nombreServicio;
     private String descripcion;
     private Duration duracion;
