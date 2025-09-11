@@ -1,8 +1,8 @@
 package org.esfe.servicios.implementacion;
 
-import org.esfe.dtos.servicio.servicioGuardar;
-import org.esfe.dtos.servicio.servicioModificar;
-import org.esfe.dtos.servicio.servicioSalida;
+import org.esfe.dtos.Servicios.servicioGuardar;
+import org.esfe.dtos.Servicios.servicioModificar;
+import org.esfe.dtos.Servicios.servicioSalida;
 import org.esfe.modelos.Servicio;
 import org.esfe.repositorios.IServicioRepository;
 import org.esfe.servicios.interfaces.IServicioService;

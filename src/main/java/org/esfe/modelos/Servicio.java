@@ -6,6 +6,7 @@ import lombok.Setter;
 
 import java.math.BigDecimal;
 import java.time.Duration;
+import java.util.List;
 
 @Getter
 @Setter
@@ -19,4 +20,6 @@ public class Servicio {
     private String descripcion;
     private Duration duracion;
     private BigDecimal precio;
+
+    private String nombre;
 }
